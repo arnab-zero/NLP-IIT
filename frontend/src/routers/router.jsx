@@ -3,9 +3,9 @@ import Goal from "../pages/Goal/Goal";
 import Home from "../pages/Home/Home";
 import LatestInBNLP from "../pages/LatestInBNLP/LatestInBNLP";
 import Publications from "../pages/Publications/Publications";
-import Collaboration from "../pages/Collaboration/Collaboration";
 import Team from "../pages/Team/Team";
 import Root from "../layout/Root";
+import OngoingProjects from "../pages/OngoingProjects/OngoingProjects";
 
 const router = createBrowserRouter([
   {
@@ -29,8 +29,8 @@ const router = createBrowserRouter([
         element: <Publications />,
       },
       {
-        path: "/collaborations",
-        element: <Collaboration />,
+        path: "/ongoing-projects",
+        element: <OngoingProjects />,
       },
       {
         path: "/team",
